@@ -2,19 +2,136 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
     <title>João o Apóstolo de Jesus Cristo de Nazaré</title>
 </head>
-<body style="background-color: aliceblue;">
-    <h1 style="text-align: center;">Aqui você saberá um pouco desse grande missionário de Cristo Jesus</h1>
-    
-    <p style="text-align: center;"><img src="Imagens/Joao.jpg" alt="João, o apóstolo"></p>
-    <p><i><b>João Evangelista ou Apóstolo João</b></i>, foi um dos doze apóstolos de Jesus e além do Evangelho segundo João, também escreveu as três epístolas de João (1, 2, e 3) e o livro do Apocalipse. Há que destacar aqui a existência de uma controvérsia sobre o verdadeiro autor do Apocalipse, mas uma tradição representada por São Justino e amplamente difundida no século II Ireneu de Lyon, Clemente de Alexandria, Tertuliano, o Cânone Muratori, identifica o autor como sendo o apóstolo João, o autor do quarto evangelho. Mas até ao século V as igrejas da Síria, Capadócia e mesmo da Palestina não pareciam ter incluído o apocalipse no cânon das escrituras, prova de que não o consideraram como obra do apóstolo. Apresenta inegável parentesco com os escritos joaninos, mas também se distingue claramente deles por sua linguagem, seu estilo e por seus pontos de vista teológicos (referentes, sobretudo à parúsia de Cristo), comentário de introdução ao apocalipse na Bíblia de Jerusalém.
+<body>
+    <header id="menu" class ="s-header">
+        <div class="container">
+        <div class="wrapper">
+            <figure class="image">
+            <img src="/html/imagens/LogoBlog.png" alt="LogoBlog">
+            </figure>
+            <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Missão</li>
+                <li><a href="#comentario">Comentários</a></li>
+            </ul>
+            </nav>
+            <button class="btn-transparent"><a href="Index.html">Menu</a></button>
+        <button class="mobile">
+        <img src="/html/Imagens/iconMenu.svg" alt="">
+        </button>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="s-hero">
+            <div class="container">
+            <div class="wrapper">
+                <div class="area-text">
+                <h1 class="title">Aqui você saberá um pouco desse grande missionário de Cristo Jesus</h1>
+                <p class="description">
+                    <i><b>João Evangelista ou Apóstolo João</b></i>, foi um dos doze apóstolos de Jesus e além do Evangelho segundo João, 
+                    também escreveu as três epístolas de João (1, 2, e 3) e o livro do Apocalipse.  
+                </p>
+                <button class="btn-red"><a href="#comentario">Comente</a></button>
+                </div>
+                <div class="area-image">    
+                <figure>
+                    <img src="/html/imagens/Joao.jpg" alt="João, o apóstolo">
+                </figure>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="s-tradicional">
+            <div class="container">
+            <div class="wrapper">
+                <div class="area-image">
+                <figure>
+                    <img src="/html/imagens/João autorApocalipse2.jpg" alt="João, Autor">
+                </figure>
+                </div>
+                <div class="area-text">
+                <h2 class="title">João o autor do Apocalipse</h2>
+                <p class="description">
+                    Há que destacar aqui a existência de uma controvérsia sobre o verdadeiro autor do Apocalipse, 
+                    mas uma tradição representada por São Justino e amplamente difundida no século II Ireneu de Lyon, 
+                    Clemente de Alexandria, Tertuliano, o Cânone Muratori, identifica o autor como sendo o apóstolo João, 
+                    o autor do quarto evangelho.
+                </p>
+                <a href="https://www.semeandovida.org/2010/01/mensagem-do-apocalipse-o-autor-do_29.html" class="link">Saiba mais sobre o autor de Apocalipse</a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="s-tradicional">
+            <div class="container">
+            <div class="wrapper">
+                <div class="area-image">
+                <figure>
+                    <img src="/html/imagens/JoãoAmado2.jpg" alt="">
+                </figure>
+                </div>
+                <div class="area-text">
+                <h2 class="title">João o Apóstolo amado</h2>
+                <p class="description">
+                    João seria o mais novo dos doze discípulos, tinha provavelmente cerca de vinte e quatro anos de idade 
+                    à altura do São João chamado por Jesus. Consta que seria solteiro e vivia com os seus pais em Betsaida. 
+                    Era pescador de profissão, consertava as redes de pesca. Trabalhava junto com seu irmão Santiago Maior, 
+                    e em provável sociedade com André e Pedro.
+                    As heranças deixadas nos escritos de João, demonstram uma personalidade extraordinária. 
+                    De acordo com as descrições ele seria imaginativo nas suas comparações, 
+                    pensativo e introspectivo nas suas dissertações e pouco falador como discípulo. 
+                    É notório o seu amadurecimento na fé através da evolução da sua escrita.
+                </p> 
+                <a href="https://www.semeandovida.org/2010/01/mensagem-do-apocalipse-o-autor-do_29.html" class="link">Saiba mais sobre o Apóstolo João</a>
+                </div>
+            </div>
+            </div>
+</section>
+<section class="s-coments">
+    <form action="">
+      <h2>Deixe seu comentário</h2>
+      <label for="username" >*Nome Completo:</label>
+      <input type="text" id="username" name="username" class="correct">
+      <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
 
-        João seria o mais novo dos doze discípulos, tinha provavelmente cerca de vinte e quatro anos de idade à altura do São João chamado por Jesus. Consta que seria solteiro e vivia com os seus pais em Betsaida. Era pescador de profissão, consertava as redes de pesca. Trabalhava junto com seu irmão Santiago Maior, e em provável sociedade com André e Pedro.
-        
-        As heranças deixadas nos escritos de João, demonstram uma personalidade extraordinária. De acordo com as descrições ele seria imaginativo nas suas comparações, pensativo e introspectivo nas suas dissertações e pouco falador como discípulo. É notório o seu amadurecimento na fé através da evolução da sua escrita.</p>
+      <label for="email">*E-mail:</label>
+      <input type="email" id="email" name="email" class="error">
+      <p id="email-helper" class="helper-text visible">Mensagem de ajuda</p>
+
+      <label for="comentario">Comentário:</label>
+      <textarea id="comentario" name="comentario" class="correct" cols="70" rows="5"></textarea>
+      <p id="comentario-helper" class="helper-text visible">Mensagem de ajuda</p>
+      <button class="btn-cinza" type="submit">Enviar</button>
+    </form>
+  </section>
+</main> 
+  <footer>
+    <div class="container">
+      <div class="wrapper">
+        <div class="content">
+          <div class="columns">
+            <h2 class="title-footer">Contato</h2>
+            <p class="description-footer">+55 21 9999-9999</p>
+            <p class="description-footer">email@gmail.com</p>
+          </div>
+          <div class="columns">
+            <h2 class="title-footer">Sobre nós</h2>
+            <p class="description-footer"><a href="#menu">Menu</a></p>
+            <p class="description-footer"><a href="Index.html">Pagina principal</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
-<footer style="text-align: center;"><a href="index.html"><h2>HOME</h2></a></footer>
 </html>
 
