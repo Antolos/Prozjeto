@@ -1,0 +1,126 @@
+[33mcommit 8ea869e8eeb55e4dd0a08a1df379df83825ecf8b[m[33m ([m[1;36mHEAD -> [m[1;32mstaging[m[33m, [m[1;31morigin/staging[m[33m)[m
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Wed Nov 15 11:48:10 2023 -0300
+
+     Foi realizado atualizações na responsividade da telas
+
+[33mcommit f372895c6358e6c8b89e240c6210546b8b9af102[m
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Mon Nov 13 20:12:16 2023 -0300
+
+    Foi realizado estilagem responsiva nas páginas Paulo, Pedro, Tiago e Mateus
+
+[33mcommit b5db3126220f87ae326dbdb2e55306a28f099f93[m
+Merge: fdf398e 4350aa3
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Tue Oct 10 15:32:08 2023 -0300
+
+    commit para merge
+
+[33mcommit fdf398e9033465596402c08092a8aa18e9035a74[m
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Tue Oct 10 15:26:41 2023 -0300
+
+    indexV2.0
+
+[33mcommit 4350aa3330d88790fc670510f5923104bfd59f69[m
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Fri Oct 6 18:44:42 2023 -0300
+
+    Foram inseridos novas informações no arquivo Paulo.html, e novas imagens na pasta imagens
+
+[33mcommit a86db657f132337fe5f3b2b63356872c90ed7136[m
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Thu Oct 5 15:01:47 2023 -0300
+
+    Foi inserido o arquivo Paulo.html na pasta imagens, e atualizações no arquivo João.html
+
+[33mcommit 6284c2c824b40aa7ba4c51fe677e24ba41b76e19[m
+Merge: d8b1f38 72934ba
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Thu Oct 5 09:27:33 2023 -0300
+
+    Merge branch 'staging' into main
+
+[33mcommit d8b1f388d7f5523fb239701fe2751a58c7dac4fb[m
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Thu Oct 5 08:57:48 2023 -0300
+
+    Remoção da pasta src através do comando touch .gitignore
+
+[33mcommit 72934baf43def364a2999d23776a2a370aa87d91[m
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Thu Oct 5 08:36:19 2023 -0300
+
+    Inclusão de arquivo de configuração .vscode/ na branch main
+
+[33mcommit dc2684391ee1ef48dcc8c7282e9eda27dcb57a05[m
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Thu Oct 5 08:24:17 2023 -0300
+
+    Remoção de algumas linhas
+
+[33mcommit 5d8efc4b4e0fa2f0faf1cabfcf8d035489f6f0e0[m
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Wed Oct 4 20:31:21 2023 -0300
+
+    primeira sprint
+
+[33mcommit beaaec424743f2c57e06b41c146eb219c409eed3[m
+Merge: 2a16f39 80ef0b0
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Tue Oct 3 14:13:01 2023 -0300
+
+    Merge branch 'main' of https://github.com/Antolos/Prozjeto
+
+[33mcommit 2a16f39d80fbbb103cb0d6a69578c938bab19cb3[m
+Merge: d26b038 ebb4b4a
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Tue Oct 3 14:09:43 2023 -0300
+
+    ultimo antes do branch staging
+
+[33mcommit d26b0384c416869b231fd3f58719284f6ac53421[m
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Tue Oct 3 14:07:42 2023 -0300
+
+    menuV1.2
+
+[33mcommit 80ef0b0baa3d5354afa0810caedecd4fa24d108f[m
+Merge: d25acb3 ebb4b4a
+Author: Antonio Carlos de Noronha Figueiredo <44371005+Antolos@users.noreply.github.com>
+Date:   Tue Oct 3 14:01:10 2023 -0300
+
+    Merge pull request #1 from Antolos/staging
+    
+    Criação do Titulo da tela sobre o apostolo Paulo da frase na linha 9
+
+[33mcommit ebb4b4a911b3d45f61ce6e999670c5704215a9e7[m
+Author: pauloedu-sousa <paulosouzel@hotmail.com>
+Date:   Tue Oct 3 13:53:26 2023 -0300
+
+    Criação do Titulo da tela sobre o apostolo Paulo da frase na linha 9
+
+[33mcommit d25acb361bfb6c01bb3c811616888a700cc5c8d1[m
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Tue Oct 3 13:39:21 2023 -0300
+
+    menuV1.1
+
+[33mcommit f760dc41ca513c045af9b3455fb1f002a3f10c01[m
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Tue Oct 3 13:26:24 2023 -0300
+
+    menuV1.0
+
+[33mcommit 4335566c73b418e7666a746f54bdc964a1c021b1[m
+Author: Antolos <acdnf@yahoo.com.br>
+Date:   Tue Oct 3 12:59:12 2023 -0300
+
+    tela de boas vindas
+
+[33mcommit 2981b72b18c2938f356d7d3ddebe447c9d68c951[m
+Author: Antonio Carlos de Noronha Figueiredo <44371005+Antolos@users.noreply.github.com>
+Date:   Tue Oct 3 12:47:56 2023 -0300
+
+    Initial commit
