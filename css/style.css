@@ -1,7 +1,7 @@
 :root {
   --red:#DA2535; 
   --gray:#616161;
-  --black:#292929;z
+  --black:#292929;
   --white: #FBFBFB;
   --white-200:#F3F3F3;
 }
@@ -282,3 +282,47 @@ textarea.correct {
 .visible {
   display: block;
 }
+
+
+
+
+
+/* index */
+
+.i-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.i-header figure {
+  width: 8%;
+  height: 8%;
+}
+
+.i-body {
+  background-color: aliceblue;
+}
+
+.i-ul-nome {
+  display: flex;
+  justify-content: space-between;
+
+}
+.i-ul-foto{
+  display: flex;
+  justify-content: space-between;
+  
+} 
+.i-ul-Footer{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.i-footer {
+  margin: 2rem;
+}
+
+/* Jõao */
+
