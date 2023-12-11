@@ -326,3 +326,21 @@ textarea.correct {
 
 /* Jõao */
 
+.s-coments{
+  display: flex;
+  justify-content: center;
+}
+
+.columns1{
+  display: flex;
+  justify-content: space-between;
+}
+.columns2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columns2 p{
+  margin-left: 10px;
+}
