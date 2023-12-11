@@ -296,7 +296,7 @@ textarea.correct {
 }
 @media (max-width: 800px){
   .i-header {
-    flex-direction: column;
+    text-align: center;
     padding: 0 1.4rem;
   }
 }
