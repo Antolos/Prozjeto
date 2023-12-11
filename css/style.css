@@ -294,34 +294,97 @@ textarea.correct {
   justify-content: space-between;
   margin: 2rem;
 }
+@media (max-width: 800px){
+  .i-header {
+    flex-direction: column;
+    padding: 0 1.4rem;
+  }
+}
 
 .i-header figure {
   width: 8%;
   height: 8%;
 }
 
+@media (max-width: 800px){
+  .i-header figure {
+  
+  }
+}
+
 .i-body {
   background-color: aliceblue;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
+@media (max-width: 800px){
+  .i-body {
+   
+  }
+}
+
+main nav ul {
+  display: flex;
+}
+
+@media (max-width: 800px){
+  main nav ul {
+      
+      flex-wrap: wrap;
+    }
+  }
+
 
 .i-ul-nome {
   display: flex;
   justify-content: space-between;
-
 }
+
+@media (max-width: 800px){
+  .i-ul-nome {
+ 
+  }
+}
+
 .i-ul-foto{
   display: flex;
   justify-content: space-between;
-  
-} 
+
+}
+@media (max-width: 800px){
+  .i-ul-foto{
+ 
+  }
+}
+
+
 .i-ul-Footer{
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
+@media (max-width: 800px){
+  .i-ul-Footer{
+  
+  }
+}
+
 .i-footer {
   margin: 2rem;
+}
+
+@media (max-width: 800px){
+  .i-footer{
+ 
+  }
+}
+
+.i-image{
+  width: 100px;
+  height: 100px;
+  
 }
 
 /* Jõao */
