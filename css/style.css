@@ -285,8 +285,6 @@ textarea.correct {
 
 
 
-
-
 /* index */
 
 .i-header {
@@ -338,7 +336,8 @@ main nav ul {
 
 .i-ul-nome {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
 }
 
 @media (max-width: 800px){
@@ -406,4 +405,35 @@ main nav ul {
 
 .columns2 p{
   margin-left: 10px;
+}
+
+
+#sub-menu {
+ 
+  display: none;
+  align-items: center;
+  margin: 0
+
+}
+#botao{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+
+#sub-botao {
+ 
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  
+  margin: 0
+
+}
+
+#mission {
+  height : 200px;
+  width: 200px; 
 }
