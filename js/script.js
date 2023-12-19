@@ -102,7 +102,7 @@ let valor = e.target.value
 // ----------- EVITAR ENVIO DO FORMULÁRIO -------------//
 let btnSubmit = document.querySelector('button[type="submit"]')
 let inputsCorretos = {
-    username: true,
+    username: false,
     email: false,
     comentario: false,
     
