@@ -10,7 +10,11 @@ function togglePopup(input, label) {
     label.classList.remove("required-popup");
     });
 }
-
+function estilizarVazio(input, helper) {
+    input.classList.remove("correct")
+    input.classList.remove("error")
+    input.classList.remove("visible")
+}
 function estilizarInputCorreto(input, helper) {
     helper.classList.remove("visible");
     input.classList.remove("error");
@@ -28,6 +32,7 @@ let usernameInput = document.getElementById("username");
 let usernameLabel = document.querySelector('label[for="username"]');
 let usernameHelper = document.getElementById("username-helper");
 
+estilizarVazio(usernameInput, usernameLabel)
 togglePopup(usernameInput, usernameLabel)
 
 // Validar valor do input
@@ -51,6 +56,7 @@ let emailInput = document.getElementById("email");
 let emailLabel = document.querySelector('label[for="email"]');
 let emailHelper = document.getElementById("email-helper");
 
+estilizarVazio(emailInput, emailLabel)
 togglePopup(emailInput, emailLabel)
 
 // VALIDAR VALOR DO INPUT
@@ -74,6 +80,7 @@ let comentarioInput = document.getElementById("comentario");
 let comentarioLabel = document.querySelector('label[for="comentario"]');
 let comentarioHelper = document.getElementById("comentario-helper");
 
+estilizarVazio(comentarioInput, comentarioLabel)
 togglePopup(comentarioInput, comentarioLabel)
 
 // Validar valor do input
