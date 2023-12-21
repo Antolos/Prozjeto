@@ -10,7 +10,11 @@ function togglePopup(input, label) {
     label.classList.remove("required-popup");
     });
 }
-
+function estilizarVazio(input, helper) {
+    input.classList.remove("correct")
+    input.classList.remove("error")
+    input.classList.remove("visible")
+}
 function estilizarInputCorreto(input, helper) {
     helper.classList.remove("visible");
     input.classList.remove("error");
@@ -28,6 +32,7 @@ let usernameInput = document.getElementById("username");
 let usernameLabel = document.querySelector('label[for="username"]');
 let usernameHelper = document.getElementById("username-helper");
 
+estilizarVazio(usernameInput, usernameLabel)
 togglePopup(usernameInput, usernameLabel)
 
 // Validar valor do input
@@ -51,6 +56,7 @@ let emailInput = document.getElementById("email");
 let emailLabel = document.querySelector('label[for="email"]');
 let emailHelper = document.getElementById("email-helper");
 
+estilizarVazio(emailInput, emailLabel)
 togglePopup(emailInput, emailLabel)
 
 // VALIDAR VALOR DO INPUT
@@ -74,6 +80,7 @@ let comentarioInput = document.getElementById("comentario");
 let comentarioLabel = document.querySelector('label[for="comentario"]');
 let comentarioHelper = document.getElementById("comentario-helper");
 
+estilizarVazio(comentarioInput, comentarioLabel)
 togglePopup(comentarioInput, comentarioLabel)
 
 // Validar valor do input
@@ -95,7 +102,7 @@ let valor = e.target.value
 // ----------- EVITAR ENVIO DO FORMULÁRIO -------------//
 let btnSubmit = document.querySelector('button[type="submit"]')
 let inputsCorretos = {
-    username: true,
+    username: false,
     email: false,
     comentario: false,
     
@@ -112,3 +119,75 @@ btnSubmit.addEventListener("click", (e) => {
         alert("Formulário enviado com sucesso")
     }
 })
+
+
+
+//---------------------------missões------------------------------------
+//joão
+const over1 = document.getElementById("over1");
+const subMenu = document.getElementById("sub-menu")
+
+over1.addEventListener( "mouseover",() => {
+    subMenu.style.display = "flex" 
+})
+
+subMenu.addEventListener( "mouseover", () => {
+    subMenu.style.display = "flex"
+})
+
+over1.addEventListener( "mouseout",() => {
+    subMenu.style.display = "none" 
+})
+
+subMenu.addEventListener( "mouseout",() => {
+    subMenu.style.display = "none" 
+})
+
+
+const botao = document.getElementById("botao");
+const subBotao = document.getElementById("sub-botao")
+
+botao.addEventListener( "mouseover",() => {
+    subBotao.style.display = "flex" 
+})
+
+subBotao.addEventListener( "mouseover", () => {
+    subBotao.style.display = "flex"
+})
+
+botao.addEventListener( "mouseout",() => {
+    subBotao.style.display = "none" 
+})
+
+subBotao.addEventListener( "mouseout",() => {
+    subBotao.style.display = "none" 
+})
+
+
+const mobile = document.getElementById("m-mobile")
+const sMobile = document.getElementById("mm-mobile")
+
+mobile.addEventListener( "mouseover", () => {
+    sMobile.style.display = "flex"
+})
+
+sMobile.addEventListener( "mouseover", () => {
+    sMobile.style.display = "flex"
+})
+mobile.addEventListener( "mouseout",() => {
+    sMobile.style.display = "none" 
+})
+
+sMobile.addEventListener( "mouseover", () => {
+    sMobile.style.display = "none"
+})
+
+
+
+//Mateus
+
+//Paulo
+
+//Pedro
+
+//Tiago

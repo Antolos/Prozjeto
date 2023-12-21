@@ -18,14 +18,31 @@
         </figure>
         <nav>
           <ul>
-            <li>Inicio</li>
-            <li>Missão</li>
-            <li><a href="#comentario">Comentários</a></li>
+            <li><a href="Index.html" class="link-li">Inicio</a></li>
+            <li class="link-li" id="over1">Missão</li>
+            <li><a href="#comentario" class="link-li">Comentários</a></li>
+          </ul>
+          <ul id="sub-menu">
+            <li><a href="#missao"><img src="./Imagens/apostolos.jpg " id="mission" alt=""><p class="link-li" style="text-align: center;">Missão</p></a></li>
+            <li id="over1" ><a href="#nossa">'Anunciar ao leitor o poder da Graça do Senhor Jesus Crito o Salvador. 
+              Porque pela graça sois salvos, mediante a fé... Efésios 2:8-13 ARA'</a></li>     
           </ul>
         </nav>
-        <button class="btn-transparent"><a href="Index.html">Menu</a></button>
-        <button class="mobile">
+        <div class="btn-transparent" id="botao">Menu
+          <ul class="link-li" id="sub-botao">
+            <li><a href="Joao.html">João </a></li>
+            <li><a href="Mateus.html">Mateus</a></li>
+            <li><a href="Paulo.html">Paulo </a></li>
+            <li><a href="Pedro.html">Pedro </a></li>
+          </ul>
+        </div>
+        <button class="mobile" id="m-mobile">
           <img src="/html/Imagens/iconMenu.svg" alt="">
+          <ul class="link-li" id="mm-mobile">
+            <li><a href="Index.html">Inicio</a></li>
+            <li id="over1">Missão</li>
+            <li><a href="#comentario">Comentários</a></li>
+          </ul>
         </button>
       </div>
     </div>
@@ -40,7 +57,7 @@
               Dois dos doze apóstolos de Jesus tinham o nome de Tiago. Um era o apóstolo Tiago, filho de Alfeu, e o outro era chamado de Tiago, 
               filho de Zebedeu. Do primeiro não se sabe praticamente nada sobre sua história e biografia, enquanto que do último se tem mais informações.
             </p>
-            <button class="btn-red"><a href="#comentario">Comente</a></button>
+            <button class="btn-red"><a href="#comentario" id="botao-coment">Comente</a></button>
           </div>
           <div class="area-image">
             <figure>
@@ -105,9 +122,7 @@
               </p>
               <div class="stars">
                 <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
+
               </div>
             </div>
             <div class="content-cards">
@@ -122,17 +137,44 @@
                 seguintes do livro de Atos liderando a Igreja em Jerusalém. Para entender melhor, 
                 saiba quem são os homens com o nome de Tiago na Bíblia.
               </p>
-              <div class="stars">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="s-coments">
+      <div class="container">
+        <div class="wrapper">
+          <div class="cards-coments">
+            <div class="content-cards">
+              <figure>
+                <img src="./Imagens/apostolos.jpg" alt="" style="width: 50%; margin-top: 20px;" id="missao">
+              </figure>
+              <h4 class="title-card" >Missão</h4>
+              <p class="description-card" style="margin-bottom: 20px;">
+                Apóstolo, padroeiro dos farmacêuticos, dos veterinários, dos químicos, peregrinos e cavaleiros, São Tiago nos inspira a cada dia mais buscar honrar a Cristo com as nossas ações. São Tiago foi um dos doze apóstolos de Jesus, e é conhecido como Tiago Maior, para ser diferenciado do outro Tiago, de Nazaré.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="s-coments">
+    <div class="container">
+      <div class="wrapper">
+        <div class="cards-coments">
+          <div class="content-cards">
+            <h4 class="title-card" id="nossa">A fé é o alicerce que nos mantêm firmes durante as adversidades.</h4>
+          </div>
+          <div class="stars">
+            <img src="/html/imagens/peixe_cristao.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
     <section class="s-coments">
       <form action="">
         <h2>Deixe seu comentário</h2>
@@ -142,27 +184,27 @@
 
         <label for="email">*E-mail:</label>
         <input type="email" id="email" name="email" class="error">
-        <p id="email-helper" class="helper-text visible">Mensagem de ajuda</p>
+        <p id="email-helper" class="helper-text" class=" visible">Mensagem de ajuda</p>
 
         <label for="comentario">Comentário:</label>
         <textarea id="comentario" name="comentario" class="correct" cols="70" rows="5"></textarea>
-        <p id="comentario-helper" class="helper-text visible">Mensagem de ajuda</p>
+        <p id="comentario-helper" class="helper-text" class=" visible">Mensagem de ajuda</p>
         <button class="btn-cinza" type="submit">Enviar</button>
       </form>
     </section> 
   </main>
   <footer>
     <div class="container">
-      <div class="wrapper">
+      <div>
         <div class="content">
-          <div class="columns">
+          <div class="columns2">
             <h2 class="title-footer">Contato</h2>
             <p class="description-footer">+55 21 9999-9999</p>
             <p class="description-footer">email@gmail.com</p>
           </div>
-          <div class="columns">
+          <div class="columns1">
             <h2 class="title-footer">Sobre nós</h2>
-            <p class="description-footer"><a href="#menu">Menu</a></p>
+            <p class="description-footer"><a href="#menu">Topo</a></p>
             <p class="description-footer"><a href="Index.html">Pagina principal</a></p>
           </div>
         </div>
