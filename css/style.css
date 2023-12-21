@@ -265,6 +265,9 @@ input {
   position: relative;
 }
 
+
+/*Utilizando keyframes e seletor ::before para inserir efeito de 
+pulsação ou batimento no elementos do blog*/
 .btn-cinza::before {
   content: '';
   position: absolute;
@@ -284,9 +287,10 @@ input {
   border-radius: 10px;
   background: transparent;
   position: relative;
-
 }
 
+/*Utilizando keyframes e seletor ::before para inserir efeito de 
+pulsação ou batimento no elementos do blog*/
 .btn-index::before {
   content: '';
   position: absolute;
@@ -301,7 +305,8 @@ input {
   outline-width: 3px;
   animation: pulse 2s linear infinite;
 }
- 
+
+
 button a {
   font-size: 1rem;
   color: black;
@@ -325,6 +330,8 @@ li a {
   margin-right: 2.3rem;
 }
 
+/*Foram utilizado conceitos :hover :after para aplicar estilos a elementos do mouse com propriedades de
+rotação orizontal*/
 .link-li::after {
   content: '';
   position: absolute;
@@ -557,6 +564,7 @@ main nav ul {
   width: 200px; 
 }
 
+/* Foi criado keyframes para inserir efeito de pulsação ou batimento no elementos do blog*/
 @keyframes pulse {
   0% {
       outline-offset: .3rem;
