@@ -18,14 +18,31 @@
         </figure>
         <nav>
           <ul>
-            <li>Inicio</li>
-            <li>Missão</li>
-            <li><a href="#comentario">Comentários</a></li>
+            <li><a href="Index.html" class="link-li">Inicio</a></li>
+            <li class="link-li" id="over1">Missão</li>
+            <li><a href="#comentario" class="link-li">Comentários</a></li>
+          </ul>
+          <ul id="sub-menu">
+            <li><a href="#missao"><img src="./Imagens/apostolos.jpg " id="mission" alt=""><p class="link-li" style="text-align: center;">Missão</p></a></li>
+            <li><a href="#nossa">'Anunciar ao leitor o poder da Graça do Senhor Jesus Crito o Salvador. 
+              Porque pela graça sois salvos, mediante a fé... Efésios 2:8-13 ARA'</a></li>     
           </ul>
         </nav>
-        <button class="btn-transparent"><a href="Index.html">Menu</a></button>
-        <button class="mobile">
+        <div class="btn-transparent" id="botao">Menu
+          <ul class="link-li" id="sub-botao">
+            <li><a href="Joao.html">João</a></li>
+            <li><a href="Paulo.html">Paulo </a></li>
+            <li><a href="Pedro.html">Pedro </a></li>
+            <li><a href="Tiago.html">Tiago </a></li>
+          </ul>
+        </div>
+        <button class="mobile" id="m-mobile">
           <img src="/html/Imagens/iconMenu.svg" alt="">
+          <ul class="link-li" id="mm-mobile">
+            <li><a href="Index.html">Inicio</a></li>
+            <li id="over1">Missão</li>
+            <li><a href="#comentario">Comentários</a></li>
+          </ul>
         </button>
       </div>
     </div>
@@ -41,7 +58,7 @@
               O apóstolo Mateus aparece em todas as listas que relacionam os discípulos de Jesus, 
               sendo elas: Mateus 10:3, Marcos 5:18, Lucas 6:15 e Atos 1:13. Neste texto estudaremos sobre quem foi Mateus na Bíblia.
             </p>
-            <button class="btn-red"><a href="#comentario">Comente</a></button>
+            <button class="btn-red"><a href="#comentario" id="botao-coment">Comente</a></button>
           </div>
           <div class="area-image">
             <figure>
@@ -107,9 +124,6 @@
               </p>
               <div class="stars">
                 <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
               </div>
             </div>
             <div class="content-cards">
@@ -122,17 +136,43 @@
                 e a narrativa de sua chamada, está justamente registrado na sequência do texto em que ele começa 
                 a seguir Jesus.
               </p>
-              <div class="stars">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-                <img src="/html/imagens/peixe_cristao.png" alt="">
-              </div>
+             
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="s-coments">
+      <div class="container">
+        <div class="wrapper">
+          <div class="cards-coments">
+            <div class="content-cards">
+              <figure>
+                <img src="./Imagens/apostolos.jpg" alt="" style="width: 50%; margin-top: 20px;" id="missao">
+              </figure>
+              <h4 class="title-card" >Missão</h4>
+              <p class="description-card" style="margin-bottom: 20px;">
+                O tema principal em Mateus é de que Jesus Cristo veio estabelecer Seu reino na Terra. Mateus mencionou "o reino dos céus" inúmeras vezes e ele é o único autor dos evangelhos a incluir ensinamentos de Jesus que mencionam a "igreja" (ver Mateus 16:18; 18:17).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="s-coments">
+    <div class="container">
+      <div class="wrapper">
+        <div class="cards-coments">
+          <div class="content-cards">
+            <h4 class="title-card" id="nossa">O poder de Deus se manifesta por suas palavras, não pelas nossas vontades.</h4>
+          </div>
+          <div class="stars">
+            <img src="/html/imagens/peixe_cristao.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
     <section class="s-coments">
       <form action="">
         <h2>Deixe seu comentário</h2>
@@ -142,27 +182,27 @@
 
         <label for="email">*E-mail:</label>
         <input type="email" id="email" name="email" class="error">
-        <p id="email-helper" class="helper-text visible">Mensagem de ajuda</p>
+        <p id="email-helper" class="helper-text" class="visible">Mensagem de ajuda</p>
 
         <label for="comentario">Comentário:</label>
         <textarea id="comentario" name="comentario" class="correct" cols="70" rows="5"></textarea>
-        <p id="comentario-helper" class="helper-text visible">Mensagem de ajuda</p>
+        <p id="comentario-helper" class="helper-text" class="visible">Mensagem de ajuda</p>
         <button class="btn-cinza" type="submit">Enviar</button>
       </form>
     </section> 
   </main>
   <footer>
     <div class="container">
-      <div class="wrapper">
+      <div>
         <div class="content">
-          <div class="columns">
+          <div class="columns2">
             <h2 class="title-footer">Contato</h2>
             <p class="description-footer">+55 21 9999-9999</p>
             <p class="description-footer">email@gmail.com</p>
           </div>
-          <div class="columns">
+          <div class="columns1">
             <h2 class="title-footer">Sobre nós</h2>
-            <p class="description-footer"><a href="#menu">Menu</a></p>
+            <p class="description-footer"><a href="#menu">Topo</a></p>
             <p class="description-footer"><a href="Index.html">Pagina principal</a></p>
           </div>
         </div>
