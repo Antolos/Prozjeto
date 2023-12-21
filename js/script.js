@@ -163,6 +163,27 @@ subBotao.addEventListener( "mouseout",() => {
     subBotao.style.display = "none" 
 })
 
+
+const mobile = document.getElementById("m-mobile")
+const sMobile = document.getElementById("mm-mobile")
+
+mobile.addEventListener( "mouseover", () => {
+    sMobile.style.display = "flex"
+})
+
+sMobile.addEventListener( "mouseover", () => {
+    sMobile.style.display = "flex"
+})
+mobile.addEventListener( "mouseout",() => {
+    sMobile.style.display = "none" 
+})
+
+sMobile.addEventListener( "mouseover", () => {
+    sMobile.style.display = "none"
+})
+
+
+
 //Mateus
 
 //Paulo
